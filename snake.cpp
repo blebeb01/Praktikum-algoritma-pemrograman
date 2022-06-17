@@ -48,6 +48,10 @@ void Draw() {
                 }
                 if(!print) cout << " ";
             }
+
+            if(j == width -1)
+            cout << "#";
+            
         }
     }
 
