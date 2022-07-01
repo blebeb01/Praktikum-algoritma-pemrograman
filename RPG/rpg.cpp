@@ -94,7 +94,7 @@ void setcolor (unsigned short color) {
 		  		for (int j = 0; j < mapLength; j++) {
 			    	if (mapX == j && mapY == i && pos < 4)
 					{
-						setcolor (13);
+						setcolor (14);
 					  	cout << "T";
 					  	setcolor (7);
 					}
