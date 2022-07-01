@@ -193,7 +193,7 @@ int main ()	{
 // Player starts first
   cout<<"You start.\n==========\n";
   while (hp > 0 || mhp > 0) {
-    cout<<"What do you want to do?\n1 - Fierce Attack\n2 - Lithe Attack\n3 - Defensive moves\n";
+    cout<<"What do you want to do?\n1 - Strong Attack\n2 - Quick Attack\n3 - Defensive moves\n";
      do{cin>>choice;}while(choice>3 || choice<1);
     switch (choice) {
       case 1:
@@ -336,7 +336,7 @@ int main ()	{
       }
       
  	cout<<"You now have "<<hp<<" hp left.\n\n";
-    cout<<"What do you want to do?\n1 - Fierce Attack\n2 - Lithe Attack\n3 - Defensive moves\n";
+    cout<<"What do you want to do?\n1 - Strong Attack\n2 - Quick Attack\n3 - Defensive moves\n";
      do{cin>>choice;}while(choice>3 || choice<1);
     switch (choice) {
       case 1:
