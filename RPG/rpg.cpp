@@ -134,16 +134,6 @@ void setcolor (unsigned short color) {
 		};
 	
 int main ()	{
-	  // Game dojo suit
-	  /*
-	     1 jalan biasa : _
-	     2 orang : !
-	     3 
-	     4 tembok : =
-	     5 kayu : -
-	     6 Batu : o
-	   */
-	
 // Main menu
 		char menu;
 		int retry;
