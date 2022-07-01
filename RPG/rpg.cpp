@@ -138,7 +138,7 @@ int main ()	{
 		char menu;
 		int retry;
 		menu: 
-		setcolor (14);
+		setcolor (10);
 		cout << "==============================\n";
 		cout << "          SIMPLE RPG          \n";
 		cout << "==============================\n";
