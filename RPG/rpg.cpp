@@ -23,7 +23,7 @@ void setcolor (unsigned short color) {
 	const int mapWidth = 16;
 	int mapY = 8;
 	int mapX = 0;
-	int keyBind = ' ';
+	int keyBind;
 	
 	int map[mapWidth][mapLength] = {
     {4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4},
